@@ -59,7 +59,7 @@ no-cov = "cov --no-cov"
 python = ["310"]
 
 [tool.hatch.version]
-path = "pkg/migrate_code/__init__.py"
+path = "pkg/migrate_code/__about__.py"
 
 [tool.isort]
 src_paths = ["pkg"]
